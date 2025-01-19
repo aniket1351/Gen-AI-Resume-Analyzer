@@ -1,8 +1,8 @@
-## Gen-AI-Resume-Analyzer
+# Gen-AI-Resume-Analyzer
 Resume Parser with GPT and PDF Extraction
 This project is a Python-based automated system for parsing resumes and extracting key information using GPT-3.5-Turbo and PDFPlumber. The extracted data is saved in a tabular format in an Excel file, making it easier to review and analyze multiple resumes at once.
 
-# Features
+### Features
 PDF Text Extraction: Extracts text from PDF resumes using pdfplumber.
 AI-Powered Parsing: Uses OpenAI's GPT-3.5-Turbo to extract important fields like:
 Name
@@ -19,7 +19,7 @@ Batch Processing: Supports processing multiple resumes in parallel using ThreadP
 
 Excel Output: Saves the parsed data in a tabular format in an Excel file for easy viewing and analysis.
 
-# Workflow
+### Workflow
 Input: Provide a list of resume files in PDF format.
 Processing:
 Extracts text from each resume.
